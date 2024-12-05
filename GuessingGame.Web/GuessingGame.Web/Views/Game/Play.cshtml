@@ -1,0 +1,118 @@
+@model GuessingGame.Web.Models.GameViewModel
+
+@{
+    ViewBag.Title = "Jugar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="mb-0">¡Bienvenido @Model.PlayerName!</h3>
+                </div>
+                <div class="card-body">
+                    <p class="lead">Adivina un número entre 1 y 100:</p>
+
+                    <div class="form-group mb-3">
+                        <input type="number" id="guess" class="form-control" min="1" max="100" required />
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary" id="btnGuess">Enviar Intento</button>
+                        <button type="button" class="btn btn-warning" id="btnRestart">Reiniciar Juego</button>
+                        <button type="button" class="btn btn-info" id="btnLeaderboard">Ver Mejores Jugadores</button>
+                    </div>
+
+                    <div id="message" class="alert mt-3" style="display:none;"></div>
+                    <div id="leaderboard" class="mt-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        jQuery(document).ready(function($) {
+            // Evento Enter en el input
+            $("#guess").keypress(function(e) {
+                if (e.which == 13) {
+                    makeGuess();
+                }
+            });
+
+            // Click en botón de enviar intento
+            $("#btnGuess").click(function() {
+                makeGuess();
+            });
+
+            // Click en botón de reiniciar
+            $("#btnRestart").click(function() {
+                location.reload();
+            });
+
+            // Click en botón de leaderboard
+            $("#btnLeaderboard").click(function() {
+                showLeaderboard();
+            });
+        });
+
+        function makeGuess() {
+            var guessValue = jQuery("#guess").val();
+
+            if (!guessValue || guessValue < 1 || guessValue > 100) {
+                alert("Por favor ingresa un número entre 1 y 100");
+                return;
+            }
+
+            jQuery.ajax({
+                url: '@Url.Action("MakeGuess", "Game")',
+                type: 'POST',
+                dataType: 'json',
+                data: { guess: guessValue },
+                success: function(data) {
+                    console.log("Respuesta:", data);
+
+                    var messageDiv = jQuery("#message");
+                    messageDiv.text(data.Message);
+                    messageDiv.show();
+
+                    messageDiv.removeClass();
+                    messageDiv.addClass("alert");
+
+                    if (data.Message.includes("mayor")) {
+                        messageDiv.addClass("alert-warning");
+                    } else if (data.Message.includes("menor")) {
+                        messageDiv.addClass("alert-info");
+                    } else if (data.GameWon) {
+                        messageDiv.addClass("alert-success");
+                        showLeaderboard();
+                    }
+
+                    jQuery("#guess").val("").focus();
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error:", error);
+                    console.error("Status:", status);
+                    console.error("Response:", xhr.responseText);
+                    alert("Error al procesar tu intento. Por favor, intenta de nuevo.");
+                }
+            });
+        }
+
+        function showLeaderboard() {
+            jQuery.ajax({
+                url: '@Url.Action("GetLeaderboard", "Game")',
+                type: 'GET',
+                success: function(data) {
+                    jQuery("#leaderboard").html(data);
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error cargando el tablero:", error);
+                }
+            });
+        }
+    </script>
+}

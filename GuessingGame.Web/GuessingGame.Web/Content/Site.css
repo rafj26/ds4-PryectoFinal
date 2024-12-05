@@ -1,0 +1,32 @@
+﻿body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.btn-group {
+    margin-top: 10px;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

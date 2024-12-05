@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Juego de Adivinar</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Juego de Adivinar", "Index", "Game", null, new { @class = "navbar-brand" })
+        </div>
+    </nav>
+
+    <main class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Juego de Adivinar el Número</p>
+        </footer>
+    </main>
+
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

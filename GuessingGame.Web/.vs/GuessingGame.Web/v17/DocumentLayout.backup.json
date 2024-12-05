@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\views\\game\\play.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\views\\game\\play.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|c:\\users\\hdavi\\documents\\guessinggame.api\\guessinggame.web\\guessinggame.web\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|c:\\users\\hdavi\\documents\\guessinggame.api\\guessinggame.web\\guessinggame.web\\views\\game\\_leaderboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\views\\game\\_leaderboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\models\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\models\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|c:\\users\\hdavi\\documents\\guessinggame.api\\guessinggame.web\\guessinggame.web\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|c:\\users\\hdavi\\documents\\guessinggame.api\\guessinggame.web\\guessinggame.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\models\\gameresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\models\\gameresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\guessinggame.web\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB0CADF-F169-4B31-ABDF-3FBB9D12F898}|GuessingGame.Web\\GuessingGame.Web.csproj|solutionrelative:guessinggame.web\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Content\\Site.css",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Content\\Site.css",
+              "RelativeToolTip": "GuessingGame.Web\\Content\\Site.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-05T00:32:20.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Leaderboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Game\\_Leaderboard.cshtml",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Views\\Game\\_Leaderboard.cshtml",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Game\\_Leaderboard.cshtml",
+              "RelativeToolTip": "GuessingGame.Web\\Views\\Game\\_Leaderboard.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T00:25:40.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GuessingGame.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T19:56:04.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Global.asax.cs",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Global.asax.cs",
+              "RelativeToolTip": "GuessingGame.Web\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:23:51.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Services\\ApiService.cs",
+              "RelativeToolTip": "GuessingGame.Web\\Services\\ApiService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:49:18.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Models\\Player.cs",
+              "RelativeToolTip": "GuessingGame.Web\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:48:23.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Play.cshtml",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Game\\Play.cshtml",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Views\\Game\\Play.cshtml",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Game\\Play.cshtml",
+              "RelativeToolTip": "GuessingGame.Web\\Views\\Game\\Play.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T19:53:17.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Controllers\\GameController.cs",
+              "RelativeToolTip": "GuessingGame.Web\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:50:01.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameResult.cs",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Models\\GameResult.cs",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Models\\GameResult.cs",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Models\\GameResult.cs",
+              "RelativeToolTip": "GuessingGame.Web\\Models\\GameResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T20:03:39.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Models\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Models\\GameViewModel.cs",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Models\\GameViewModel.cs",
+              "RelativeToolTip": "GuessingGame.Web\\Models\\GameViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:47:47.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "GuessingGame.Web\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T20:29:01.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Web.config",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Web.config",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Web.config",
+              "RelativeToolTip": "GuessingGame.Web\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-04T19:46:54.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Game\\Index.cshtml",
+              "RelativeDocumentMoniker": "GuessingGame.Web\\Views\\Game\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hdavi\\Documents\\GuessingGame.API\\GuessingGame.Web\\GuessingGame.Web\\Views\\Game\\Index.cshtml",
+              "RelativeToolTip": "GuessingGame.Web\\Views\\Game\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T19:52:03.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

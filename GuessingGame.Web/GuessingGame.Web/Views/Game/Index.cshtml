@@ -1,0 +1,29 @@
+@model GuessingGame.Web.Models.GameViewModel
+
+@{
+    ViewBag.Title = "Juego de Adivinar el Número";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h2>Bienvenido al Juego de Adivinar el Número</h2>
+                </div>
+                <div class="card-body">
+                    @using (Html.BeginForm("StartGame", "Game", FormMethod.Post))
+                    {
+                        <div class="form-group">
+                            <label>Ingresa tu nombre:</label>
+                            <input type="text" name="playerName" class="form-control" required />
+                        </div>
+                        <div class="text-center mt-3">
+                            <button type="submit" class="btn btn-primary">Comenzar Juego</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
